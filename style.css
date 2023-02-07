@@ -165,6 +165,14 @@ header {
   padding: 0 10px 0 15px;
 }
 
+.card {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .card {
+  display: block;
+}
+
 @media (min-width: 1260px) {
   .video {
     width: 100%;
