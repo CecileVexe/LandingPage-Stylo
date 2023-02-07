@@ -79,20 +79,20 @@ header {
   margin-bottom: 35px;
 }
 
-#stylo-maquette-mobile {
+#description {
   position: relative;
   overflow: hidden;
   height: 650px;
   width: 100%;
 }
 
-#stylo-maquette-mobile:before {
+#description:before {
   content: "";
   position: absolute;
   width: 180%;
   height: 180%;
   left: -65%;
-  top: -40%;
+  top: -35%;
   background: url(./assets/Stylo-maquette.webp) 0 0 no-repeat;
   background-size: 100%;
   z-index: -1;
@@ -103,9 +103,16 @@ header {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 610px;
-  left: 83px;
-  gap: 170px;
+  top: 0px;
+  left: 85px;
+  /* gap: 170px; */
+}
+
+.maquette-circle .check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .maquette-circle input {
@@ -113,12 +120,14 @@ header {
 }
 
 .maquette-circle label {
-  display: inline-block;
+  /* display: flex; */
+  /* display: inline-block; */
   height: 30px;
   width: 30px;
   border-radius: 100%;
   background-color: rgb(255, 255, 255, 0.7);
   border: 6px solid rgb(130, 130, 130, 0.8);
+  /* margin-bottom: 170px; */
 }
 
 #cards {
@@ -131,9 +140,13 @@ header {
 }
 
 .card {
+  opacity: 0;
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
+  /* position: absolute;
+  left: 100px; */
+  flex-direction: column;
+
   overflow: hidden;
   color: #000;
   box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
@@ -142,15 +155,18 @@ header {
   height: 180px;
   border-radius: 30px;
   padding-bottom: 5px;
+  margin: 0px 0px 10px 20px;
 }
 
 .card img {
+  opacity: 0;
   height: 60px;
   width: 100%;
   object-fit: cover;
 }
 
 .card h2 {
+  opacity: 0;
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
@@ -159,20 +175,47 @@ header {
 }
 
 .card p {
+  opacity: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   padding: 0 10px 0 15px;
 }
 
-.card {
+/* .card {
   display: none;
+} */
+
+/* #card-1 {
+  position: absolute;
+  top: -40px;
 }
+
+#card-2 {
+  position: absolute;
+  top: 170px;
+}
+
+#card-3 {
+  position: absolute;
+  top: 380px;
+} */
 
 input[type="checkbox"]:checked ~ .card {
-  display: block;
+  opacity: 100;
 }
 
+input[type="checkbox"]:checked ~ .card img {
+  opacity: 100;
+}
+
+input[type="checkbox"]:checked ~ .card h2 {
+  opacity: 100;
+}
+
+input[type="checkbox"]:checked ~ .card p {
+  opacity: 100;
+}
 @media (min-width: 1260px) {
   .video {
     width: 100%;
