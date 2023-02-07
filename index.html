@@ -31,12 +31,14 @@
             </p>
         </div>
         <div class="header-btn">
-            <a href="" class="btn black">Découvrez le <img src="./assets/fleche-R-black.png" alt="flèche-droite"></a>
+            <a href="" class="btn black">Découvrez le<img src="./assets/fleche-R-black.png" alt="flèche-droite"></a>
         </div>
-        <!-- <nav>
-            <a href="" class="btn"></a>
-        </nav> -->
     </header>
+    <nav class="mobile">
+        <div class="nav-btn">
+            <a href="" class="btn">Découvrez le<img src="./assets/fleche-R-black.png" alt="flèche-droite"></a>
+        </div>
+    </nav>
 
     <section id="description">
         <!-- <div id="stylo-maquette-mobile"></div>
@@ -91,61 +93,138 @@
         </div>
     </section>
 
+
     <section id="spliter">
         <div class="spliter-img"></div>
-        <div class="spliter-text"></div>
+        <div class="spliter-text">
+            <p>Plus qu'un stylo à bille, c'est l'expression d'une personnalité !</p>
+            <p> Idéal pour vous ou les cadeaux
+                d'affaires et familiaux
+                ou bien d'autres occasions, notre stylo saura s'adapter à toutes les mains.</p>
+        </div>
+        <div class="spliter-img"></div>
         <div class="spliter-img"></div>
         <div class="spliter-img"></div>
     </section>
 
     <section id="steps">
-        <div class="step 1">
+        <div id="step-1">
             <div class="step-text">
-
+                <h3><img src="./assets/numero-un.png" alt="Etape une"> Choisissez votre couleur</h3>
+                <p>La personnalisation de votre stylo commence par le choix de sa couleur. Nous proposons un large choix
+                    de palettes pour
+                    correspondre à tous les gouts et à toutes les mains.</p>
+                <p> Vous pouvez choisir parmi des palettes traditionnelles couleurs
+                    métal, bois, couleu</p>
             </div>
             <div class="step-img">
 
             </div>
         </div>
-        <div class="step 2">
+        <div id="step-2">
             <div class="step-text">
-
+                <h3> Personnalisez le <img src="./assets/numero-2.png" alt="Etape deux"></h3>
+                <p>Une fois votre couleur choisi, laissez parler votre créativité ! Notre stylo peut s'adapter à tous
+                    les styles et être
+                    gravé du message de votre choix, avec une grande variété de designs et de finitions disponibles.</p>
+                <p>Nous offrons la possibilité de personnaliser notre stylo avec votre nom, votre logo ou une citation,
+                    pour le rendre
+                    unique. Ou pour les entreprises et les organisations, faire de ce stylo un véritable outil de
+                    communication.
+                </p>
             </div>
             <div class="step-img">
 
             </div>
         </div>
-        <div class="step 3">
+        <div id="step-3">
             <div class="step-text">
-
+                <h3><img src="./assets/numero-3.png" alt="Etape trois">Nous le frabiquons</h3>
+                <p>Dans notre atelier en France, nos modèles sont fabriqués avec des matériaux de qualité supérieure
+                    afin de retranscrire
+                    au mieux votre personnalité.
+                    Avec une qualité irréprochable, parce-que chaque stylo unique demande une attention toute
+                    particulière.
+                </p>
+                <p>Il vous est ensuite envoyé dans les plus brefs délais et arrive directement dans votre boite au
+                    lettre.
+                </p>
             </div>
             <div class="step-img">
 
             </div>
         </div>
-        <a href="" class="btn"></a>
+        <div class="steps-btn">
+            <a href="" class="btn">Créez<span>votre</span> stylo <img src="./assets/fleche-R-black.png"
+                    alt="flèche-droite"></a>
+        </div>
     </section>
 
     <section id="reviews">
-        <div class="review 1"></div>
-        <div class="review 2"></div>
-        <div class="review 3"></div>
+        <div class="review-1">
+            <div class="profil">
+                <h4>Charlie Walts</h4>
+                <p>05/02/2023</p>
+            </div>
+            <img src="./assets/rating5.png" alt="5 étoiles">
+            <p>" Le stylo correspondait exactement à la prévisualisation sur le site ! La
+                couleur était bonne et le message était bien
+                gravé dessus. En plus le stylo est arrivé en 4 jours, parfait !"</p>
+        </div>
+        <div class="review-2">
+            <div class="profil">
+                <h4>Arold Osward</h4>
+                <p>15/12/2022</p>
+            </div>
+            <img src="./assets/rating4.png" alt="4 étoiles">
+            <p>" Commandé pour un cadeau de noël, le stylo est arrivé rapidement malgré la période des fêtes. Il est de
+                bonne qualité
+                et la gravure est belle. "</p>
+        </div>
+        <div class="review-3">
+            <div class="profil">
+                <h4>Sam Martins</h4>
+                <p>23/01/2023</p>
+            </div>
+            <img src="./assets/rating5.png" alt="5 étoiles">
+            <p>"J'en ai commandé pour la journée porte ouverte de mon entreprise. Les stylos sont vite arrivés et
+                étaient de bonne
+                facture."</p>
+        </div>
     </section>
 
-    <footer>
+    <footer id="footer">
         <form action="">
             <label for="newsletter">Inscription e-mail :</label>
-            <input type="text" name="newsletter" id="newsletter" placeholder="Votre e-mail :">
-            <label for="submit">Je m'abonne</label>
-            <input type="submit" name="submit" id="submit" class="btn" value="Je m'abonne">
+            <div>
+                <input type="text" name="newsletter" id="newsletter" placeholder="Votre e-mail :">
+                <label for="submit" class="none">Je m'abonne</label>
+                <input type="submit" name="submit" id="submit" class="btn" value="Je m'abonne">
+            </div>
+            <p class="moins-10">Restez informé et obtenez - 10% en
+                vous abonnant à la newsletter !</p>
+            <p class="RGPD">En validant votre inscription, vous acceptez que Goodi's mémorise et utilise votre adresse
+                email dans le but de vous
+                envoyer mensuellement notre lettre d'informations.</p>
         </form>
-        <div></div>
-        <p></p>
-        <div id="icones-reseaux"></div>
-        <p></p>
-        <p></p>
-        <p></p>
+        <div class="links">
+            <div id="icones-reseaux">
+                <a href=""><img src="./assets/instagram.png" alt="Instagram"></a>
+                <a href=""><img src="./assets/facebook.png" alt="Facebook"></a>
+                <a href=""><img src="./assets/youtube.png" alt="Youtube"></a>
+            </div>
+            <p><a href="">Mentions Légales</a></p>
+            <p><a href="">Politique de confidentialités</a></p>
+            <p><a href="https://www.flaticon.com/fr/icones-gratuites/twitter" title="twitter icônes"
+                    class="flaticon">Icônes créées par
+                    Hight
+                    Quality Icons, Pixel perfect et apien - Flaticon</a></p>
+        </div>
     </footer>
+
+    <div class="spare-space">
+
+    </div>
 
 </body>
 
