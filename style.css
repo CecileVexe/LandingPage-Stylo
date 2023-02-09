@@ -239,7 +239,13 @@ input[type="checkbox"]:checked ~ .card p {
   display: flex;
   justify-content: end;
   align-content: center;
+  align-items: center;
   margin: 0 15px;
+}
+
+nav img {
+  width: 35%;
+  height: 80%;
 }
 
 .nav-btn {
