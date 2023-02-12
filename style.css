@@ -720,4 +720,35 @@ footer a:visited {
     width: 12%;
     height: 12%;
   }
+
+  #reviews {
+    height: 500px;
+    background-size: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #reviews > div {
+    width: 400px;
+    height: 300px;
+  }
+
+  #reviews > div > p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  #reviews img {
+    width: 150px;
+  }
+
+  .profil h4 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .profil p {
+    font-size: 20px;
+  }
 }
