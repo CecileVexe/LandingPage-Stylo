@@ -665,4 +665,59 @@ footer a:visited {
     width: 455px;
     height: 370px;
   }
+
+  #steps {
+    margin: 60px;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+
+  .step-text {
+    width: 780px;
+  }
+
+  .step-text h3 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .step-text p {
+    font-size: 20px;
+  }
+
+  .step-img {
+    width: 600px;
+    height: 410px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+
+  #step-1,
+  #step-3 {
+    flex-direction: row-reverse;
+  }
+
+  #step-2 h3 {
+    justify-content: flex-end;
+  }
+
+  .steps-btn {
+    width: 460px;
+  }
+
+  .steps-btn a {
+    font-size: 38px;
+  }
+
+  .steps-btn img {
+    width: 12%;
+    height: 12%;
+  }
 }
