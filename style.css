@@ -280,13 +280,16 @@ nav img {
   background-image: url(./assets/Spliter-2.jpg);
   background-size: cover;
   background-position: 50% 30%;
+  margin: 0;
+  padding: 0;
 }
 
 #spliter div:nth-child(4) {
   height: 389px;
   background-image: url(./assets/Spliter-3.jpg);
-  background-size: 120%;
+  background-size: cover;
   background-position: 50% 30%;
+  background-repeat: no-repeat;
 }
 
 #spliter div:nth-child(5) {
