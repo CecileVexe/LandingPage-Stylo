@@ -497,6 +497,8 @@ footer a:visited {
   font-weight: 700;
 }
 
+/*///////////////////////Responsive/////////////////////////////*/
+
 @media (min-width: 1260px) {
   body {
     display: flex;
@@ -536,8 +538,8 @@ footer a:visited {
   .title {
     position: absolute;
     top: 0px;
-    padding: 70px;
-    margin-top: 50px;
+    padding: 120px 0 70px 150px;
+    width: 100%;
   }
 
   .title h1 {
@@ -599,8 +601,65 @@ footer a:visited {
     margin-bottom: 60px;
   }
 
+  .maquette-circle label:hover {
+    cursor: pointer;
+  }
+
   .card {
     width: 350px;
     height: 330px;
+  }
+
+  .card img {
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .card h2 {
+    font-size: 25px;
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+
+  #spliter {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .spliter-img {
+    width: 500px;
+  }
+
+  #spliter div:nth-child(1) {
+    height: 370px;
+  }
+
+  #spliter div:nth-child(2) {
+    max-width: 400px;
+    padding: 100px;
+  }
+
+  #spliter div:nth-child(3) {
+    background-image: url(./assets/Spliter-4.jpg);
+    height: 370px;
+    width: 764px;
+
+    padding-bottom: 370px;
+    margin-bottom: -370px;
+  }
+
+  #spliter div:nth-child(4) {
+    background-image: url(./assets/Spliter-2.jpg);
+    width: 645px;
+    height: 370px;
+  }
+
+  #spliter div:nth-child(5) {
+    background-image: url(./assets/Spliter-3.jpg);
+    background-position: center;
+    width: 455px;
+    height: 370px;
   }
 }
