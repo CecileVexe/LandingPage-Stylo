@@ -432,7 +432,7 @@ footer label {
   font-weight: 700;
 }
 
-footer input[type="text"] {
+footer input[type="email"] {
   border: 3px solid #000;
   border-radius: 15px;
   width: 220px;
@@ -774,7 +774,7 @@ footer a:visited {
     width: 570px;
   }
 
-  footer input[type="text"] {
+  footer input[type="email"] {
     width: 360px;
     height: 42px;
     padding: 10px;
