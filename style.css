@@ -641,14 +641,14 @@ footer a:visited {
 
   #spliter div:nth-child(2) {
     max-width: 400px;
-    padding: 100px;
+    margin: 100px 100px 50px 100px;
+    padding: 0;
   }
 
   #spliter div:nth-child(3) {
     background-image: url(./assets/Spliter-4.jpg);
     height: 370px;
     width: 764px;
-
     padding-bottom: 370px;
     margin-bottom: -370px;
   }
@@ -664,6 +664,11 @@ footer a:visited {
     background-position: center;
     width: 455px;
     height: 370px;
+  }
+
+  .spliter-text p {
+    font-size: 20px;
+    line-height: 30px;
   }
 
   #steps {
@@ -750,5 +755,57 @@ footer a:visited {
 
   .profil p {
     font-size: 20px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 70px;
+  }
+
+  footer form {
+    width: 600px;
+  }
+
+  footer form div {
+    justify-content: flex-start;
+    gap: 20px;
+    width: 570px;
+  }
+
+  footer input[type="text"] {
+    width: 360px;
+    height: 42px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  footer input[type="submit"] {
+    font-size: 25px;
+  }
+
+  footer input[type="submit"]:hover {
+    cursor: pointer;
+  }
+
+  .moins-10 {
+    font-size: 25px;
+  }
+
+  .RGPD {
+    font-size: 12px;
+  }
+
+  .links {
+    width: 500px;
+  }
+
+  .links p:nth-child(4) {
+    padding-top: 80px;
+  }
+
+  .spare-space {
+    display: none;
   }
 }
