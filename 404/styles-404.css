@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   animation: fadeIn 2s ease forwards;
   animation-delay: 2.5s;
 }
