@@ -99,25 +99,21 @@ header {
   width: 100%;
 }
 
-#description:before {
-  content: "";
-  position: absolute;
-  width: 180%;
-  height: 180%;
-  left: -65%;
-  top: -35%;
-  background: url(./assets/Stylo-maquette.webp) 0 0 no-repeat;
-  background-size: 100%;
+#description {
+  background: url(./assets/stylo-maquette-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
   /* z-index: -1; */
-  transform: rotate(1.4deg);
+  /* transform: rotate(1.4deg); */
 }
 
 .maquette-circle {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 0px;
-  left: 85px;
+  top: 0%;
+  left: 17%;
   /* gap: 170px; */
 }
 
@@ -148,7 +144,7 @@ header {
   flex-direction: column;
   gap: 30px;
   position: absolute;
-  top: 565px;
+  top: 575px;
   left: 150px;
 }
 
@@ -502,6 +498,27 @@ footer a:visited {
 }
 
 /*///////////////////////Responsive/////////////////////////////*/
+
+@media (min-width: 550px) {
+  #description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 680px;
+  }
+
+  #description:before {
+    content: "";
+    background-image: url(./assets/Stylo-maquette2.png);
+    background-size: cover;
+    background-position: center;
+    transform: none;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+  }
+}
 
 @media (min-width: 1260px) {
   body {
