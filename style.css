@@ -619,8 +619,10 @@ footer a:visited {
 
   .card {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    width: 350px;
+    height: 340px;
   }
 
   .maquette-circle label {
@@ -648,13 +650,8 @@ footer a:visited {
     cursor: pointer;
   }
 
-  .card {
-    width: 350px;
-    height: 330px;
-  }
-
   .card img {
-    height: 150px;
+    height: 170px;
     margin-bottom: 20px;
   }
 
@@ -669,6 +666,7 @@ footer a:visited {
   #spliter {
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .spliter-img {
