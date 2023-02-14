@@ -15,6 +15,11 @@ body {
   margin: 0;
 }
 
+picture {
+  display: inline-block;
+  height: 100%;
+}
+
 h4 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
