@@ -3,7 +3,6 @@
 
 html {
   width: 100%;
-
   scroll-behavior: smooth;
   scroll-padding-top: 130px;
   font-family: "Poppins", sans-serif;
@@ -742,10 +741,6 @@ footer a:visited {
     top: 7rem;
   }
 
-  /* .maquette-circle > div {
-    position: absolute;
-  } */
-
   .card {
     display: flex;
     justify-content: flex-start;
@@ -758,21 +753,6 @@ footer a:visited {
     height: 40px;
     width: 40px;
   }
-
-  /* #je {
-    top: 15%;
-    left: 17%;
-  }
-
-  #fais {
-    top: 15%;
-    left: 45%;
-  }
-
-  #test {
-    top: 15%;
-    left: 70%;
-  } */
 
   .maquette-circle label:hover {
     cursor: pointer;
