@@ -78,7 +78,7 @@ header {
 .title {
   padding: 15px;
   width: 90%;
-  background-color: #000;
+  background-color: #0b0b0b;
   z-index: 1;
 }
 
@@ -164,9 +164,9 @@ header {
   left: 100px; */
   flex-direction: column;
   overflow: hidden;
-  color: #000;
+  color: #0b0b0b;
   box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
-  background-color: #fff;
+  background-color: #eeeeee;
   width: 220px;
   height: 180px;
   border-radius: 30px;
@@ -237,7 +237,7 @@ input[type="checkbox"]:checked ~ .card p {
   position: fixed;
   bottom: 10px;
   z-index: 0;
-  background-color: #000;
+  background-color: #0b0b0b;
   width: 280px;
   padding: 15px 10px;
   border-radius: 20px;
@@ -406,11 +406,11 @@ nav img {
   align-items: center;
   gap: 65px;
   padding: 40px 0;
-  color: #000;
+  color: #0b0b0b;
 }
 
 #reviews > div {
-  background-color: #fff;
+  background-color: #eeeeee;
   border-radius: 50px;
   width: 280px;
   height: 250px;
@@ -439,8 +439,8 @@ p {
 }
 
 footer {
-  background-color: #fff;
-  color: #000;
+  background-color: #eeeeee;
+  color: #0b0b0b;
   padding: 20px 10px;
 }
 
@@ -451,8 +451,8 @@ footer form div {
 }
 
 footer .btn {
-  background-color: #000;
-  color: #fff;
+  background-color: #0b0b0b;
+  color: #eeeeee;
 }
 
 footer .none {
@@ -465,7 +465,7 @@ footer label {
 }
 
 footer input[type="email"] {
-  border: 3px solid #000;
+  border: 3px solid #0b0b0b;
   border-radius: 15px;
   width: 170px;
   height: 42px;
@@ -487,8 +487,8 @@ footer input[type="submit"]:hover {
 }
 
 .moins-10 {
-  background-color: #000;
-  color: #fff;
+  background-color: #0b0b0b;
+  color: #eeeeee;
   font-size: 14px;
   font-weight: bold;
   padding: 10px 20px;
@@ -520,19 +520,19 @@ footer input[type="submit"]:hover {
 
 footer a {
   text-decoration: none;
-  color: #000;
+  color: #0b0b0b;
   font-weight: 700;
 }
 
 footer a:hover {
   text-decoration: underline;
-  color: #000;
+  color: #0b0b0b;
   font-weight: 900;
 }
 
 footer a:visited {
   text-decoration: none;
-  color: #000;
+  color: #0b0b0b;
   font-weight: 700;
 }
 
@@ -842,8 +842,8 @@ footer a:visited {
   }
 
   .header-btn .btn {
-    background-color: #000;
-    color: #fff;
+    background-color: #0b0b0b;
+    color: #eeeeee;
   }
 
   .header-btn a {
