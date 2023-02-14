@@ -639,7 +639,7 @@ footer a:visited {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 27.6rem;
+    height: 28em;
     z-index: 0;
   }
 
@@ -1262,5 +1262,11 @@ footer a:visited {
   #reviews > div {
     width: 25rem;
     height: 20rem;
+  }
+}
+
+@media (min-width: 1070px) {
+  #description {
+    background-position: 50% 40%;
   }
 }
