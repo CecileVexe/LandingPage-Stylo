@@ -52,6 +52,10 @@ header,
   height: 15%;
 }
 
+#spliter div {
+  overflow: hidden;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -261,41 +265,48 @@ nav img {
   flex-direction: column;
 }
 
+#spliter img {
+  z-index: -1;
+}
+
 #spliter div:nth-child(1) {
-  height: 279px;
-  background-image: url(./assets/Spliter-1.jpg);
-  background-size: cover;
+  height: 200px;
+}
+
+#spliter div:nth-child(1) img {
+  position: relative;
+  width: 100%;
 }
 
 #spliter div:nth-child(2) {
-  padding: 10px 70px;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 20px;
+  padding: 1em 2em;
 }
 
 #spliter div:nth-child(3) {
-  height: 173px;
-  background-image: url(./assets/Spliter-2.jpg);
-  background-size: cover;
-  background-position: 50% 30%;
-  margin: 0;
-  padding: 0;
+  height: 225px;
+}
+
+#spliter div:nth-child(3) img {
+  position: relative;
+  width: 100%;
 }
 
 #spliter div:nth-child(4) {
-  height: 389px;
-  background-image: url(./assets/Spliter-3.jpg);
-  background-size: cover;
-  background-position: 50% 30%;
-  background-repeat: no-repeat;
+  height: 250px;
+}
+
+#spliter div:nth-child(4) img {
+  position: relative;
+  width: 100%;
 }
 
 #spliter div:nth-child(5) {
-  height: 416px;
-  background-image: url(./assets/Spliter-4.jpg);
-  background-size: cover;
-  background-position: 90% 50%;
+  height: 160px;
+}
+
+#spliter div:nth-child(5) img {
+  position: relative;
+  width: 100%;
 }
 
 #steps {
@@ -327,10 +338,17 @@ nav img {
 }
 
 .step-img {
-  height: 300px;
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
 }
 
-#step-1 .step-img {
+.step-img img {
+  width: 100%;
+  z-index: -1;
+}
+
+/* #step-1 .step-img {
   background-image: url(./assets/step-1.png);
   background-size: cover;
 }
@@ -339,6 +357,21 @@ nav img {
   background-image: url(./assets/step-2.png);
   background-size: 140%;
   background-position: 0% 60%;
+} */
+
+#step-2 .step-img img {
+  width: 100%;
+  transform: scale(1.5);
+  position: relative;
+  top: -10%;
+  right: -15%;
+}
+
+#step-3 .step-img img {
+  width: 100%;
+  transform: scale(1.2);
+  position: relative;
+  top: 10%;
 }
 
 #step-2 .step-text {
@@ -349,10 +382,10 @@ nav img {
   margin: 0 0 0 8px;
 }
 
-#step-3 .step-img {
+/* #step-3 .step-img {
   background-image: url(./assets/step-3.jpg);
   background-size: cover;
-}
+} */
 
 .steps-btn {
   width: 270px;
@@ -521,11 +554,66 @@ footer a:visited {
   footer input[type="submit"] {
     font-size: 15px;
   }
+
+  #spliter div:nth-child(1) {
+    height: 200px;
+  }
+
+  #spliter div:nth-child(1) img {
+    position: relative;
+    width: 100%;
+    top: -20%;
+  }
+
+  #spliter div:nth-child(3) {
+    height: 250px;
+  }
+
+  #spliter div:nth-child(3) img {
+    position: relative;
+    width: 100%;
+    top: -15%;
+  }
+
+  #spliter div:nth-child(4) {
+    height: 250px;
+  }
+
+  #spliter div:nth-child(4) img {
+    position: relative;
+    width: 100%;
+    top: -50%;
+  }
+
+  #spliter div:nth-child(5) {
+    height: 225px;
+  }
+
+  #spliter div:nth-child(5) img {
+    position: relative;
+    width: 100%;
+  }
+
+  #step-2 .step-img img {
+    width: 100%;
+    transform: scale(1.2);
+    position: relative;
+    top: -25%;
+    right: -10%;
+  }
 }
 
 @media (min-width: 425px) {
   .maquette-circle {
     left: 20%;
+  }
+
+  #step-2 .step-img img {
+    width: 100%;
+    position: relative;
+    transform: scale(1);
+    top: -40%;
+    right: 0%;
   }
 }
 
@@ -585,13 +673,65 @@ footer a:visited {
     padding: 2rem 8rem !important;
   }
 
+  #spliter {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   #spliter div:nth-child(1) {
+    width: 100%;
+    height: 279px;
+  }
+
+  #spliter div:nth-child(1) img {
+    position: relative;
+    top: -60%;
+  }
+
+  #spliter div:nth-child(2) {
+    width: 100%;
+  }
+
+  #spliter div:nth-child(3) {
+    width: 50%;
+    height: 280px;
+  }
+
+  #spliter div:nth-child(3) img {
+    position: relative;
+    width: 100%;
+    top: 0%;
+  }
+
+  #spliter div:nth-child(4) {
+    width: 50%;
+    height: 280px;
+  }
+
+  #spliter div:nth-child(4) img {
+    position: relative;
+    width: 100%;
+    top: -30%;
+  }
+
+  #spliter div:nth-child(5) {
+    width: 100%;
+    height: 280px;
+  }
+
+  #spliter div:nth-child(5) img {
+    position: relative;
+    width: 100%;
+    top: -20%;
+  }
+
+  /* #spliter div:nth-child(1) {
     background-position: center;
   }
 
   #spliter div:nth-child(3) {
     height: 20rem;
-  }
+  } */
 
   .steps {
     display: flex;
@@ -614,6 +754,14 @@ footer a:visited {
 
   #steps div:nth-child(2) {
     flex-direction: row;
+  }
+
+  #step-2 .step-img img {
+    width: 100%;
+    position: relative;
+    transform: scale(1);
+    top: -15%;
+    right: 0%;
   }
 
   #reviews {
@@ -779,6 +927,52 @@ footer a:visited {
     width: 100%;
   }
 
+  #spliter div:nth-child(1) {
+    width: 100%;
+    height: 279px;
+  }
+
+  #spliter div:nth-child(1) img {
+    position: relative;
+    top: -80%;
+  }
+
+  #spliter div:nth-child(2) {
+    width: 100%;
+  }
+
+  #spliter div:nth-child(3) {
+    width: 50%;
+    height: 370px;
+  }
+
+  #spliter div:nth-child(3) img {
+    position: relative;
+    width: 100%;
+  }
+
+  #spliter div:nth-child(4) {
+    width: 50%;
+    height: 370px;
+  }
+
+  #spliter div:nth-child(4) img {
+    position: relative;
+    width: 100%;
+    top: -30%;
+  }
+
+  #spliter div:nth-child(5) {
+    width: 100%;
+    height: 350px;
+  }
+
+  #spliter div:nth-child(5) img {
+    position: relative;
+    width: 100%;
+    top: -20%;
+  }
+  /* 
   #spliter div:nth-child(2) {
     padding: 0;
   }
@@ -795,7 +989,7 @@ footer a:visited {
   #spliter div:nth-child(5) {
     background-image: url(./assets/Spliter-3.jpg);
     background-position: center;
-  }
+  } */
 
   .spliter-text p {
     font-size: 20px;
@@ -843,6 +1037,22 @@ footer a:visited {
 
   #step-2 h3 {
     justify-content: flex-end;
+  }
+
+  #step-2 .step-img img {
+    width: 100%;
+    position: relative;
+    transform: scale(1.4);
+    top: 0%;
+    right: -10%;
+  }
+
+  #step-3 .step-img img {
+    width: 100%;
+    position: relative;
+    transform: scale(2);
+    top: 0%;
+    right: 10%;
   }
 
   .steps-btn {
@@ -969,6 +1179,10 @@ footer a:visited {
     width: 100%;
   }
 
+  #spliter div {
+    overflow: hidden;
+  }
+
   .spliter-text {
     display: flex;
     flex-direction: column;
@@ -976,19 +1190,31 @@ footer a:visited {
   }
 
   #spliter div:nth-child(1) {
-    width: 30%;
+    width: 444px;
     height: 370px;
     background-position: left;
+  }
+
+  #spliter div:nth-child(1) img {
+    width: 150%;
+    position: relative;
+    top: 0%;
   }
 
   #spliter div:nth-child(2) {
     max-width: 400px;
     padding: 0 !important;
   }
+
   #spliter div:nth-child(3) {
-    width: 600px;
+    width: 40%;
     height: 370px;
-    background-position: right;
+  }
+
+  #spliter div:nth-child(3) img {
+    position: relative;
+    width: 100%;
+    top: -10%;
   }
 
   #spliter div:nth-child(4) {
@@ -996,9 +1222,37 @@ footer a:visited {
     height: 388px;
   }
 
+  #spliter div:nth-child(4) img {
+    position: relative;
+    width: 100%;
+    top: -50%;
+  }
+
   #spliter div:nth-child(5) {
     width: 50%;
     height: 388px;
+  }
+
+  #spliter div:nth-child(5) img {
+    position: relative;
+    width: 100%;
+    top: 0%;
+  }
+
+  #step-2 .step-img img {
+    width: 100%;
+    position: relative;
+    transform: scale(1.2);
+    top: -30%;
+    right: -10%;
+  }
+
+  #step-3 .step-img img {
+    width: 100%;
+    position: relative;
+    transform: scale(1.2);
+    top: 0%;
+    right: 0%;
   }
 
   #reviews {
