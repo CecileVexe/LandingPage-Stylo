@@ -96,7 +96,7 @@ header {
 
 .title p {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
@@ -644,7 +644,7 @@ footer a:visited {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 28em;
+    height: 27.6em;
     z-index: 0;
   }
 
@@ -661,6 +661,17 @@ footer a:visited {
     padding: 120px 0 70px 50px;
     width: 90%;
     background: none;
+  }
+
+  .header-btn .btn {
+    background-color: #050505;
+    color: #eeeeee;
+  }
+
+  .header-btn .btn img {
+    content: url(./assets/fleche-R-white.png);
+    width: 13%;
+    height: 13%;
   }
 
   .maquette-circle {
