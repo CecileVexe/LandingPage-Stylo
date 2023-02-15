@@ -118,7 +118,6 @@ header {
   background-position: center;
   background-attachment: scroll;
   z-index: 1;
-  /* transform: rotate(1.4deg); */
 }
 
 .maquette-circle {
@@ -127,7 +126,6 @@ header {
   position: absolute;
   top: 0%;
   left: 10%;
-  /* gap: 170px; */
 }
 
 .check {
@@ -142,14 +140,11 @@ header {
 }
 
 .maquette-circle label {
-  /* display: flex; */
-  /* display: inline-block; */
   height: 30px;
   width: 30px;
   border-radius: 100%;
   background-color: rgb(255, 255, 255, 0.7);
   border: 6px solid rgb(130, 130, 130, 0.8);
-  /* margin-bottom: 170px; */
 }
 
 #cards {
@@ -165,8 +160,6 @@ header {
   opacity: 0;
   display: flex;
   align-items: flex-start;
-  /* position: absolute;
-  left: 100px; */
   flex-direction: column;
   overflow: hidden;
   color: #050505;
@@ -202,25 +195,6 @@ header {
   font-size: 12px;
   padding: 0 10px 0 15px;
 }
-
-/* .card {
-  display: none;
-} */
-
-/* #card-1 {
-  position: absolute;
-  top: -40px;
-}
-
-#card-2 {
-  position: absolute;
-  top: 170px;
-}
-
-#card-3 {
-  position: absolute;
-  top: 380px;
-} */
 
 input[type="checkbox"]:checked ~ .card {
   opacity: 100;
@@ -353,17 +327,6 @@ nav img {
   z-index: -1;
 }
 
-/* #step-1 .step-img {
-  background-image: url(./assets/step-1.png);
-  background-size: cover;
-}
-
-#step-2 .step-img {
-  background-image: url(./assets/step-2.png);
-  background-size: 140%;
-  background-position: 0% 60%;
-} */
-
 #step-2 .step-img img {
   width: 100%;
   transform: scale(1.5);
@@ -386,11 +349,6 @@ nav img {
 #step-2 .step-text img {
   margin: 0 0 0 8px;
 }
-
-/* #step-3 .step-img {
-  background-image: url(./assets/step-3.jpg);
-  background-size: cover;
-} */
 
 .steps-btn {
   width: 270px;
@@ -542,6 +500,12 @@ footer a:visited {
 }
 
 /*///////////////////////Responsive/////////////////////////////*/
+
+@media (min-width: 320px) {
+  #reviews > div {
+    width: 80%;
+  }
+}
 
 @media (min-width: 375px) {
   .maquette-circle {
@@ -741,14 +705,6 @@ footer a:visited {
     top: -20%;
   }
 
-  /* #spliter div:nth-child(1) {
-    background-position: center;
-  }
-
-  #spliter div:nth-child(3) {
-    height: 20rem;
-  } */
-
   .steps {
     display: flex;
     flex-direction: row-reverse;
@@ -782,6 +738,10 @@ footer a:visited {
 
   #reviews {
     background-size: cover;
+  }
+
+  #reviews > div {
+    width: 280px;
   }
 
   footer {
@@ -828,11 +788,6 @@ footer a:visited {
     position: relative;
     overflow: hidden;
   }
-
-  /* #header-video {
-    position: absolute;
-    top: -100px;
-  } */
 
   .title {
     position: absolute;
@@ -988,24 +943,6 @@ footer a:visited {
     width: 100%;
     top: -20%;
   }
-  /* 
-  #spliter div:nth-child(2) {
-    padding: 0;
-  }
-
-  #spliter div:nth-child(3) {
-    background-image: url(./assets/Spliter-4.jpg);
-  }
-
-  #spliter div:nth-child(4) {
-    background-image: url(./assets/Spliter-2.jpg);
-    background-position: 50% 35%;
-  }
-
-  #spliter div:nth-child(5) {
-    background-image: url(./assets/Spliter-3.jpg);
-    background-position: center;
-  } */
 
   .spliter-text p {
     font-size: 20px;
