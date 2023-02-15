@@ -524,9 +524,9 @@ footer a:visited {
     font-size: 15px;
   }
 
-  #spliter div:nth-child(1) {
+  /* #spliter div:nth-child(1) {
     height: 200px;
-  }
+  } */
 
   #spliter div:nth-child(1) img {
     position: relative;
@@ -544,13 +544,13 @@ footer a:visited {
     top: -15%;
   }
 
-  #spliter div:nth-child(4) {
+  /* #spliter div:nth-child(4) {
     height: 250px;
-  }
+  } */
 
   #spliter div:nth-child(4) img {
-    position: relative;
-    width: 100%;
+    /* position: relative;
+    width: 100%; */
     top: -50%;
   }
 
@@ -558,10 +558,10 @@ footer a:visited {
     height: 225px;
   }
 
-  #spliter div:nth-child(5) img {
+  /* #spliter div:nth-child(5) img {
     position: relative;
     width: 100%;
-  }
+  } */
 
   #step-2 .step-img img {
     width: 100%;
@@ -610,11 +610,8 @@ footer a:visited {
     width: 100%;
     height: 27.6em;
     z-index: 0;
-  }
-
-  #description {
     background-image: url(./assets/Stylo-maquette2.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     transform: none;
   }
@@ -639,7 +636,10 @@ footer a:visited {
   }
 
   .maquette-circle {
+    justify-content: space-around;
     flex-direction: row;
+    width: 95%;
+    height: 100%;
     top: 5rem;
     left: 1rem;
   }
@@ -729,9 +729,9 @@ footer a:visited {
   }
 
   #step-2 .step-img img {
-    width: 100%;
+    /* width: 100%;
     position: relative;
-    transform: scale(1);
+    transform: scale(1); */
     top: -15%;
     right: 0%;
   }
@@ -766,36 +766,36 @@ footer a:visited {
   }
 
   .mobile {
-    width: 80%;
+    /* width: 80%;
     height: 70px;
     z-index: 1;
     justify-content: space-between;
     position: fixed;
-    top: 10px;
+    top: 10px; */
     padding: 10px 25px;
-    border-radius: 40px;
+    /* border-radius: 40px; */
   }
 
   nav > img {
     width: 200px;
     height: 75px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
 
   .video {
-    width: 100%;
+    /* width: 100%;
     height: auto;
-    position: relative;
+    position: relative; */
     overflow: hidden;
   }
 
-  .title {
+  /* .title {
     position: absolute;
     top: 0px;
     padding: 120px 0 10px 100px;
     width: 90%;
     background: none;
-  }
+  } */
 
   .title h1 {
     font-size: 3rem;
@@ -830,28 +830,24 @@ footer a:visited {
   #description {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 680px;
-  }
-
-  #description {
+    /* width: 100%;
+    height: 680px; */
     background-image: url(./assets/Stylo-maquette2.png);
     background-size: cover;
-    background-position: center;
-    transform: none;
+    /* background-position: center; */
+    /* transform: none; */
     width: 100%;
     height: 37rem;
   }
 
   .check {
-    flex-direction: column;
-
+    /* flex-direction: column; */
     gap: 2rem;
   }
 
   .maquette-circle {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     align-items: flex-start;
     justify-content: space-around;
     width: 95%;
@@ -889,8 +885,8 @@ footer a:visited {
   }
 
   #spliter {
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
     width: 100%;
   }
 
@@ -898,51 +894,51 @@ footer a:visited {
     width: 100%;
   }
 
-  #spliter div:nth-child(1) {
+  /* #spliter div:nth-child(1) {
     width: 100%;
     height: 279px;
-  }
+  } */
 
   #spliter div:nth-child(1) img {
     position: relative;
     top: -80%;
   }
 
-  #spliter div:nth-child(2) {
+  /* #spliter div:nth-child(2) {
     width: 100%;
-  }
+  } */
 
   #spliter div:nth-child(3) {
     width: 50%;
     height: 370px;
   }
 
-  #spliter div:nth-child(3) img {
+  /* #spliter div:nth-child(3) img {
     position: relative;
     width: 100%;
-  }
+  } */
 
   #spliter div:nth-child(4) {
     width: 50%;
     height: 370px;
   }
 
-  #spliter div:nth-child(4) img {
+  /* #spliter div:nth-child(4) img {
     position: relative;
     width: 100%;
     top: -30%;
-  }
+  } */
 
   #spliter div:nth-child(5) {
     width: 100%;
     height: 350px;
   }
 
-  #spliter div:nth-child(5) img {
+  /* #spliter div:nth-child(5) img {
     position: relative;
     width: 100%;
     top: -20%;
-  }
+  } */
 
   .spliter-text p {
     font-size: 20px;
@@ -954,12 +950,12 @@ footer a:visited {
   }
 
   .steps {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; */
     gap: 3rem;
-    width: 100%;
-    padding-bottom: 80px;
+    /* width: 100%;
+    padding-bottom: 80px; */
   }
 
   .step-text {
@@ -993,16 +989,16 @@ footer a:visited {
   }
 
   #step-2 .step-img img {
-    width: 100%;
-    position: relative;
+    /* width: 100%;
+    position: relative; */
     transform: scale(1.4);
     top: 0%;
     right: -10%;
   }
 
   #step-3 .step-img img {
-    width: 100%;
-    position: relative;
+    /* width: 100%;
+    position: relative; */
     transform: scale(2);
     top: 0%;
     right: 10%;
@@ -1055,8 +1051,8 @@ footer a:visited {
   }
 
   footer {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     justify-content: space-between;
     padding: 20px 40px;
   }
@@ -1127,9 +1123,9 @@ footer a:visited {
   }
 
   #spliter {
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
   }
 
   #spliter div {
